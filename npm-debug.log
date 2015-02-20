@@ -1,0 +1,345 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/dsegal/.nvm/v0.10.35/bin/node',
+1 verbose cli   '/Users/dsegal/.nvm/v0.10.35/bin/npm',
+1 verbose cli   'i',
+1 verbose cli   'express',
+1 verbose cli   'director',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'express', null ]
+6 verbose cache add name=undefined spec="express" args=["express",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'express',
+7 verbose parsed url   path: 'express',
+7 verbose parsed url   href: 'express' }
+8 verbose cache add [ 'director', null ]
+9 verbose cache add name=undefined spec="director" args=["director",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'director',
+10 verbose parsed url   path: 'director',
+10 verbose parsed url   href: 'director' }
+11 silly lockFile f3c62de4-express express
+12 verbose lock express /Users/dsegal/.npm/f3c62de4-express.lock
+13 silly lockFile 235acfdf-director director
+14 verbose lock director /Users/dsegal/.npm/235acfdf-director.lock
+15 silly lockFile f3c62de4-express express
+16 silly lockFile f3c62de4-express express
+17 silly lockFile 235acfdf-director director
+18 silly lockFile 235acfdf-director director
+19 verbose addNamed [ 'express', '' ]
+20 verbose addNamed [ null, '*' ]
+21 silly lockFile 64a534c1-express express@
+22 verbose lock express@ /Users/dsegal/.npm/64a534c1-express.lock
+23 verbose addNamed [ 'director', '' ]
+24 verbose addNamed [ null, '*' ]
+25 silly lockFile 46fda0cc-director director@
+26 verbose lock director@ /Users/dsegal/.npm/46fda0cc-director.lock
+27 silly addNameRange { name: 'express', range: '*', hasData: false }
+28 silly addNameRange { name: 'director', range: '*', hasData: false }
+29 verbose request where is /artifactory/api/npm/npm-virtual/director
+30 verbose request registry http://artifactory.otenv.com:8081/
+31 verbose request id 5fe2912892de68e5
+32 verbose url raw /artifactory/api/npm/npm-virtual/director
+33 verbose url resolving [ 'http://artifactory.otenv.com:8081/',
+33 verbose url resolving   './artifactory/api/npm/npm-virtual/director' ]
+34 verbose url resolved http://artifactory.otenv.com:8081/artifactory/api/npm/npm-virtual/director
+35 verbose request where is http://artifactory.otenv.com:8081/artifactory/api/npm/npm-virtual/director
+36 info trying registry request attempt 1 at 15:04:30
+37 http GET http://artifactory.otenv.com:8081/artifactory/api/npm/npm-virtual/director
+38 verbose request where is /artifactory/api/npm/npm-virtual/express
+39 verbose request registry http://artifactory.otenv.com:8081/
+40 verbose url raw /artifactory/api/npm/npm-virtual/express
+41 verbose url resolving [ 'http://artifactory.otenv.com:8081/',
+41 verbose url resolving   './artifactory/api/npm/npm-virtual/express' ]
+42 verbose url resolved http://artifactory.otenv.com:8081/artifactory/api/npm/npm-virtual/express
+43 verbose request where is http://artifactory.otenv.com:8081/artifactory/api/npm/npm-virtual/express
+44 info trying registry request attempt 1 at 15:04:30
+45 verbose etag 881b370426ca3522cbb11ebbc3220bb76b0b2434
+46 http GET http://artifactory.otenv.com:8081/artifactory/api/npm/npm-virtual/express
+47 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+48 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+49 info trying registry request attempt 2 at 15:05:10
+50 http GET http://artifactory.otenv.com:8081/artifactory/api/npm/npm-virtual/director
+51 info trying registry request attempt 2 at 15:05:10
+52 verbose etag 881b370426ca3522cbb11ebbc3220bb76b0b2434
+53 http GET http://artifactory.otenv.com:8081/artifactory/api/npm/npm-virtual/express
+54 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+55 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+56 info trying registry request attempt 3 at 15:06:40
+57 http GET http://artifactory.otenv.com:8081/artifactory/api/npm/npm-virtual/director
+58 info trying registry request attempt 3 at 15:06:40
+59 verbose etag 881b370426ca3522cbb11ebbc3220bb76b0b2434
+60 http GET http://artifactory.otenv.com:8081/artifactory/api/npm/npm-virtual/express
+61 silly lockFile 46fda0cc-director director@
+62 silly lockFile 46fda0cc-director director@
+63 silly registry.get cb [ 304, undefined ]
+64 verbose etag http://artifactory.otenv.com:8081/artifactory/api/npm/npm-virtual/express from cache
+65 silly addNameRange number 2 { name: 'express', range: '*', hasData: true }
+66 silly addNameRange versions [ 'express',
+66 silly addNameRange   [ '1.0.0-rc2',
+66 silly addNameRange     '1.0.0-rc4',
+66 silly addNameRange     '1.0.0-rc3',
+66 silly addNameRange     '4.10.1',
+66 silly addNameRange     '4.10.2',
+66 silly addNameRange     '4.10.3',
+66 silly addNameRange     '4.10.4',
+66 silly addNameRange     '4.10.0',
+66 silly addNameRange     '3.0.0-alpha1',
+66 silly addNameRange     '3.0.0-alpha3',
+66 silly addNameRange     '3.0.0-alpha2',
+66 silly addNameRange     '3.0.0-alpha5',
+66 silly addNameRange     '3.0.0-alpha4',
+66 silly addNameRange     '2.5.10',
+66 silly addNameRange     '3.5.1',
+66 silly addNameRange     '2.5.11',
+66 silly addNameRange     '2.0.0',
+66 silly addNameRange     '3.5.0',
+66 silly addNameRange     '3.5.3',
+66 silly addNameRange     '3.5.2',
+66 silly addNameRange     '4.10.8',
+66 silly addNameRange     '4.10.7',
+66 silly addNameRange     '4.10.6',
+66 silly addNameRange     '4.10.5',
+66 silly addNameRange     '1.0.0-beta2',
+66 silly addNameRange     '2.0.0-rc2',
+66 silly addNameRange     '2.0.0-rc3',
+66 silly addNameRange     '3.1.0',
+66 silly addNameRange     '3.1.1',
+66 silly addNameRange     '3.1.2',
+66 silly addNameRange     '2.3.1',
+66 silly addNameRange     '2.3.2',
+66 silly addNameRange     '2.3.0',
+66 silly addNameRange     '2.3.5',
+66 silly addNameRange     '2.3.6',
+66 silly addNameRange     '2.3.3',
+66 silly addNameRange     '2.3.4',
+66 silly addNameRange     '4.3.0',
+66 silly addNameRange     '4.3.2',
+66 silly addNameRange     '4.3.1',
+66 silly addNameRange     '2.4.7',
+66 silly addNameRange     '2.4.6',
+66 silly addNameRange     '2.5.9',
+66 silly addNameRange     '2.5.6',
+66 silly addNameRange     '3.9.0',
+66 silly addNameRange     '2.5.5',
+66 silly addNameRange     '2.5.8',
+66 silly addNameRange     '2.5.7',
+66 silly addNameRange     '4.4.4',
+66 silly addNameRange     '4.4.5',
+66 silly addNameRange     '4.11.1',
+66 silly addNameRange     '2.3.7',
+66 silly addNameRange     '4.11.0',
+66 silly addNameRange     '2.3.8',
+66 silly addNameRange     '2.3.9',
+66 silly addNameRange     '4.11.2',
+66 silly addNameRange     '3.4.0',
+66 silly addNameRange     '3.4.1',
+66 silly addNameRange     '3.4.2',
+66 silly addNameRange     '3.4.3',
+66 silly addNameRange     '3.4.4',
+66 silly addNameRange     '1.0.0-beta',
+66 silly addNameRange     '2.3.10',
+66 silly addNameRange     '2.3.11',
+66 silly addNameRange     '3.3.8',
+66 silly addNameRange     '3.3.7',
+66 silly addNameRange     '3.3.6',
+66 silly addNameRange     '2.3.12',
+66 silly addNameRange     '3.6.0',
+66 silly addNameRange     '5.0.0-alpha.1',
+66 silly addNameRange     '3.2.0',
+66 silly addNameRange     '3.2.1',
+66 silly addNameRange     '3.2.2',
+66 silly addNameRange     '3.2.3',
+66 silly addNameRange     '3.2.4',
+66 silly addNameRange     '3.2.5',
+66 silly addNameRange     '3.2.6',
+66 silly addNameRange     '3.0.2',
+66 silly addNameRange     '3.0.1',
+66 silly addNameRange     '3.0.4',
+66 silly addNameRange     '3.0.3',
+66 silly addNameRange     '3.0.6',
+66 silly addNameRange     '3.0.5',
+66 silly addNameRange     '3.19.2',
+66 silly addNameRange     '3.4.8',
+66 silly addNameRange     '3.19.1',
+66 silly addNameRange     '3.4.7',
+66 silly addNameRange     '3.14.0',
+66 silly addNameRange     '3.19.0',
+66 silly addNameRange     '3.0.0',
+66 silly addNameRange     '3.4.6',
+66 silly addNameRange     '4.0.0',
+66 silly addNameRange     '3.4.5',
+66 silly addNameRange     '1.0.2',
+66 silly addNameRange     '2.2.2',
+66 silly addNameRange     '1.0.1',
+66 silly addNameRange     '2.2.1',
+66 silly addNameRange     '1.0.0',
+66 silly addNameRange     '2.2.0',
+66 silly addNameRange     '1.0.6',
+66 silly addNameRange     '4.4.1',
+66 silly addNameRange     '1.0.5',
+66 silly addNameRange     '4.4.0',
+66 silly addNameRange     '1.0.4',
+66 silly addNameRange     '3.0.0-rc1',
+66 silly addNameRange     '4.4.3',
+66 silly addNameRange     '1.0.3',
+66 silly addNameRange     '3.0.0-rc2',
+66 silly addNameRange     '4.4.2',
+66 silly addNameRange     '3.0.0-rc3',
+66 silly addNameRange     '3.0.0-rc4',
+66 silly addNameRange     '1.0.8',
+66 silly addNameRange     '3.0.0-rc5',
+66 silly addNameRange     '3.10.4',
+66 silly addNameRange     '1.0.7',
+66 silly addNameRange     '3.10.5',
+66 silly addNameRange     '0.14.0',
+66 silly addNameRange     '0.14.1',
+66 silly addNameRange     '4.2.0',
+66 silly addNameRange     '2.4.4',
+66 silly addNameRange     '2.4.5',
+66 silly addNameRange     '2.4.2',
+66 silly addNameRange     '2.4.3',
+66 silly addNameRange     '2.4.0',
+66 silly addNameRange     '2.4.1',
+66 silly addNameRange     '3.11.0',
+66 silly addNameRange     '4.9.8',
+66 silly addNameRange     '4.9.7',
+66 silly addNameRange     '4.9.6',
+66 silly addNameRange     '4.9.5',
+66 silly addNameRange     '4.9.4',
+66 silly addNameRange     '4.9.3',
+66 silly addNameRange     '3.10.2',
+66 silly addNameRange     '4.9.2',
+66 silly addNameRange     '3.10.3',
+66 silly addNameRange     '4.9.1',
+66 silly addNameRange     '3.10.0',
+66 silly addNameRange     '4.9.0',
+66 silly addNameRange     '3.10.1',
+66 silly addNameRange     '4.5.1',
+66 silly addNameRange     '4.5.0',
+66 silly addNameRange     '3.12.1',
+66 silly addNameRange     '4.7.3',
+66 silly addNameRange     '3.12.0',
+66 silly addNameRange     '4.7.4',
+66 silly addNameRange     '4.7.1',
+66 silly addNameRange     '4.7.2',
+66 silly addNameRange     '3.13.0',
+66 silly addNameRange     '4.6.0',
+66 silly addNameRange     '4.6.1',
+66 silly addNameRange     '3.16.8',
+66 silly addNameRange     '3.16.9',
+66 silly addNameRange     '3.15.3',
+66 silly addNameRange     '3.16.6',
+66 silly addNameRange     '3.16.7',
+66 silly addNameRange     '3.15.1',
+66 silly addNameRange     '3.15.2',
+66 silly addNameRange     '3.15.0',
+66 silly addNameRange     '3.16.0',
+66 silly addNameRange     '3.16.1',
+66 silly addNameRange     '3.16.4',
+66 silly addNameRange     '3.16.5',
+66 silly addNameRange     '3.16.2',
+66 silly addNameRange     '3.16.3',
+66 silly addNameRange     '3.8.1',
+66 silly addNameRange     '3.18.3',
+66 silly addNameRange     '3.17.8',
+66 silly addNameRange     '2.0.0-beta',
+66 silly addNameRange     '3.18.2',
+66 silly addNameRange     '3.17.7',
+66 silly addNameRange     '3.18.1',
+66 silly addNameRange     '3.17.6',
+66 silly addNameRange     '3.18.0',
+66 silly addNameRange     '3.17.5',
+66 silly addNameRange     '3.17.4',
+66 silly addNameRange     '3.18.6',
+66 silly addNameRange     '3.17.3',
+66 silly addNameRange     '3.18.5',
+66 silly addNameRange     '3.17.2',
+66 silly addNameRange     '3.18.4',
+66 silly addNameRange     '3.17.1',
+66 silly addNameRange     '3.17.0',
+66 silly addNameRange     '3.7.0',
+66 silly addNameRange     '4.1.0',
+66 silly addNameRange     '3.8.0',
+66 silly addNameRange     '4.1.2',
+66 silly addNameRange     '4.1.1',
+66 silly addNameRange     '3.3.5',
+66 silly addNameRange     '3.3.4',
+66 silly addNameRange     '3.3.3',
+66 silly addNameRange     '3.3.2',
+66 silly addNameRange     '3.3.1',
+66 silly addNameRange     '3.3.0',
+66 silly addNameRange     '2.5.0',
+66 silly addNameRange     '2.5.2',
+66 silly addNameRange     '2.5.1',
+66 silly addNameRange     '2.5.4',
+66 silly addNameRange     '2.5.3',
+66 silly addNameRange     '2.0.0-beta3',
+66 silly addNameRange     '2.0.0-beta2',
+66 silly addNameRange     '3.0.0-beta4',
+66 silly addNameRange     '3.0.0-beta3',
+66 silly addNameRange     '3.0.0-beta2',
+66 silly addNameRange     '3.0.0-beta1',
+66 silly addNameRange     '4.8.3',
+66 silly addNameRange     '4.8.2',
+66 silly addNameRange     '1.0.0-rc',
+66 silly addNameRange     '4.8.1',
+66 silly addNameRange     '2.1.0',
+66 silly addNameRange     '4.8.0',
+66 silly addNameRange     '4.8.7',
+66 silly addNameRange     '4.8.6',
+66 silly addNameRange     '3.0.0-beta6',
+66 silly addNameRange     '4.8.5',
+66 silly addNameRange     '3.0.0-beta7',
+66 silly addNameRange     '4.8.4',
+66 silly addNameRange     '4.8.8',
+66 silly addNameRange     '2.1.1',
+66 silly addNameRange     '3.16.10',
+66 silly addNameRange     '4.0.0-rc4',
+66 silly addNameRange     '2.0.0-rc',
+66 silly addNameRange     '4.0.0-rc2',
+66 silly addNameRange     '4.0.0-rc3',
+66 silly addNameRange     '4.0.0-rc1',
+66 silly addNameRange     '4.7.0' ] ]
+67 verbose addNamed [ 'express', '4.11.2' ]
+68 verbose addNamed [ '4.11.2', '4.11.2' ]
+69 silly lockFile 69e74cc8-express-4-11-2 express@4.11.2
+70 verbose lock express@4.11.2 /Users/dsegal/.npm/69e74cc8-express-4-11-2.lock
+71 silly lockFile 69e74cc8-express-4-11-2 express@4.11.2
+72 silly lockFile 69e74cc8-express-4-11-2 express@4.11.2
+73 silly lockFile 64a534c1-express express@
+74 silly lockFile 64a534c1-express express@
+75 error network getaddrinfo ENOTFOUND
+75 error network This is most likely not a problem with npm itself
+75 error network and is related to network connectivity.
+75 error network In most cases you are behind a proxy or have bad network settings.
+75 error network
+75 error network If you are behind a proxy, please make sure that the
+75 error network 'proxy' config is set properly.  See: 'npm help config'
+76 error System Darwin 14.0.0
+77 error command "/Users/dsegal/.nvm/v0.10.35/bin/node" "/Users/dsegal/.nvm/v0.10.35/bin/npm" "i" "express" "director" "--save"
+78 error cwd /Users/dsegal/webdev/director-ex
+79 error node -v v0.10.35
+80 error npm -v 1.4.28
+81 error syscall getaddrinfo
+82 error code ENOTFOUND
+83 error errno ENOTFOUND
+84 verbose exit [ 1, true ]
