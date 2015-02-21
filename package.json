@@ -1,7 +1,7 @@
 {
   "name": "director-ex",
   "version": "1.0.0",
-  "description": "Express app using director for Client and Server routing",
+  "description": "express app using director for client and server routing",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,14 +10,20 @@
     "type": "git",
     "url": "https://github.com/doron2402/director-example.git"
   },
+  "keywords": [
+    "express",
+    "director",
+    "nodejs"
+  ],
   "author": "Doron Segal <doron2402@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/doron2402/director-example/issues"
   },
   "homepage": "https://github.com/doron2402/director-example",
-  "keywords": [
-    "express",
-    "director"
-  ]
+  "dependencies": {
+    "director": "^1.2.8",
+    "ejs": "^2.2.4",
+    "express": "^4.11.2"
+  }
 }
