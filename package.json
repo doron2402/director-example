@@ -23,7 +23,7 @@
   "homepage": "https://github.com/doron2402/director-example",
   "dependencies": {
     "director": "^1.2.8",
-    "ejs": "^2.2.4",
+    "ejs": "^3.1.7",
     "express": "^4.11.2"
   }
 }
